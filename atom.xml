@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-08-31T09:26:55.061Z</updated>
+  <updated>2023-08-31T14:45:45.776Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>《学习论》：斯金纳操作学习理论</title>
+    <title>《学习论》：02 学习理论</title>
     <link href="http://example.com/2023/08/31/202302/"/>
     <id>http://example.com/2023/08/31/202302/</id>
     <published>2023-08-31T09:26:43.359Z</published>
-    <updated>2023-08-31T09:26:55.061Z</updated>
+    <updated>2023-08-31T14:45:45.776Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="学习理论"><a href="#学习理论" class="headerlink" title="学习理论"></a>学习理论</h2><p>学习理论是心理学的一门分支学科，是对学习规律和学习条件的系统阐述，它主要研究人类与动物的行为特征和认知心理过程。鉴于学习理论注重把心理学的一般原理应用于学习领域，从这个角度来讲，它是一门应用性学科；鉴于学习理论主要探讨行为(包括内部行为)是如何变化的，并试图解释和预测行为的变化，从而为课程与教学理论奠定基础，从这个角度来看，它又是一种基础理论。</p><h3 id="1-哲学基础"><a href="#1-哲学基础" class="headerlink" title="1. 哲学基础"></a>1. 哲学基础</h3><p>强调学习是由经验而引起的行为的变化，是因为许多低等动物也能表现极为复杂的行为模式，但这些行为模式主要不是由于学习的结果，而是出于它们的本能。作为本能的行为模式，一般要符合两个条件：</p><ol><li>这种行为模式是这一物种的所有成员都具备的；</li><li>即便在与其他同类成员隔绝的情况下，也会产生这种行为模式。</li></ol><p>然而，本能与学习之间的区分也并不始终是泾渭分明的。人们偶尔也会看到一些天生的行为模式因经验而发生变化。尽管如此，我们还是不能把有机体的所有能力都看做是学习的结果。不过，在有些场合，要把行为分成完全先天的或完全习得的是很困难的，而且也没有这个必要。</p><h3 id="2-成熟与学习"><a href="#2-成熟与学习" class="headerlink" title="2. 成熟与学习"></a>2. 成熟与学习</h3><p>人的发展在一定程度上可以说是由成熟（生理的发展）与学习（心理的发展）构成的。有机体要做出某些行为，神经系统和肌肉组织必须达到一定的成熟水平。就像，我们无论创造出什么样的教学方法，在儿童神经动作控制发展到一定程度以前，是无法让他们握笔写字的。</p><p>还要注意的是，我们不能因年龄变化引起有机体内部组织变化而导致的行为变化称为学习。</p><h3 id="3-学习与成绩"><a href="#3-学习与成绩" class="headerlink" title="3. 学习与成绩"></a>3. 学习与成绩</h3><p>学习是一种在学习者内部发生的事情，学习本身是无法直接测量的，我们能够测量的只有学习动机结果。</p><p>通过测量学习的结果可能会存在不一致性，一方面，可以通过测量学习者的成绩来判断学习是否发生，因为正确的操作表现无疑隐含着学习；但另一方面，没有表现出正确的操作水平有时也并不一定意味着学习没有发生，可能由于没有显示学习结果的动机导致不愿意显示出来。</p><p>所以这对于教师提出了要求，不仅要指导学生的学习，而且还要帮助和鼓励学生在最佳状态下发挥自己的才能。</p><h3 id="4-行为的暂时变化与相对持久的变化"><a href="#4-行为的暂时变化与相对持久的变化" class="headerlink" title="4. 行为的暂时变化与相对持久的变化"></a>4. 行为的暂时变化与相对持久的变化</h3><p>强调学习是行为相对持续的变化，是为了区别那些因各种原因而引起的行为的暂时变化。例如，当一个人生病、身体疲劳或心情烦恼时，学习的效果就会受影响。但这些都是暂时现象，可见，暂时性的行为变化不一定是因为学习而引起的，学习必须是指有机体比较持久的行为变化。</p><p>这里使用“相对”或“比较”一词，是因为学习者习得某种反应倾向后，虽然会形成稳定的习惯和牢固的知识，但随着时间的推移，可能会发生遗忘。我们不能因为一个人多年后忘记了如何解二元一次方程而否认他在中学时的学习。</p><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>学习是指学习者因经验而引起的行为、能力和心理倾向的比较持久的变化。这些变化不是因成熟、疾病或药物引起的，而且也不一定表现出外显的行为。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h2 id=&quot;学习理论&quot;&gt;&lt;a href=&quot;#学习理论&quot; class=&quot;headerlink&quot; title=&quot;学习理论&quot;&gt;&lt;/a&gt;学习理论&lt;/h2&gt;&lt;p&gt;学习理论是心理学的一门分支学科，是对学习规律和学习条件的系统阐述，它主要研究人类与动物的行为特征和认知心理过程。鉴于学习理论</summary>
       
     
     
@@ -37,18 +37,18 @@
   </entry>
   
   <entry>
-    <title>《学习论》：关于学习</title>
+    <title>《学习论》：01 学习的定义</title>
     <link href="http://example.com/2023/08/31/202301/"/>
     <id>http://example.com/2023/08/31/202301/</id>
     <published>2023-08-31T05:33:27.410Z</published>
-    <updated>2023-08-31T06:31:49.549Z</updated>
+    <updated>2023-08-31T14:43:10.531Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="学习的定义"><a href="#学习的定义" class="headerlink" title="学习的定义"></a>学习的定义</h2><p>在学习理论中所讲的“学”不只是指人类的学习，也包括动物的学习；它泛指有机体因经验而发生的行为的变化，而且这种变化并不意味着改变后的行为比原来的行为更可取。就一般而言，学习是有机体适应环境的手段。有机体为了生存与适应，必须不断改变自己的行为。经验积累引起的行为倾向变化的过程，也就是学习的过程。然而，我们不能把所有行为变化都看作是学习的结果。</p><h3 id="1-本能与学习"><a href="#1-本能与学习" class="headerlink" title="1. 本能与学习"></a>1. 本能与学习</h3><p>强调学习是由经验而引起的行为的变化，是因为许多低等动物也能表现极为复杂的行为模式，但这些行为模式主要不是由于学习的结果，而是出于它们的本能。作为本能的行为模式，一般要符合两个条件：</p><ol><li>这种行为模式是这一物种的所有成员都具备的；</li><li>即便在与其他同类成员隔绝的情况下，也会产生这种行为模式。</li></ol><p>然而，本能与学习之间的区分也并不始终是泾渭分明的。人们偶尔也会看到一些天生的行为模式因经验而发生变化。尽管如此，我们还是不能把有机体的所有能力都看做是学习的结果。不过，在有些场合，要把行为分成完全先天的或完全习得的是很困难的，而且也没有这个必要。</p><h3 id="2-成熟与学习"><a href="#2-成熟与学习" class="headerlink" title="2. 成熟与学习"></a>2. 成熟与学习</h3><p>人的发展在一定程度上可以说是由成熟（生理的发展）与学习（心理的发展）构成的。有机体要做出某些行为，神经系统和肌肉组织必须达到一定的成熟水平。就像，我们无论创造出什么样的教学方法，在儿童神经动作控制发展到一定程度以前，是无法让他们握笔写字的。</p><p>还要注意的是，我们不能因年龄变化引起有机体内部组织变化而导致的行为变化称为学习。</p><h3 id="3-学习与成绩"><a href="#3-学习与成绩" class="headerlink" title="3. 学习与成绩"></a>3. 学习与成绩</h3><p>学习是一种在学习者内部发生的事情，学习本身是无法直接测量的，我们能够测量的只有学习动机结果。</p><p>通过测量学习的结果可能会存在不一致性，一方面，可以通过测量学习者的成绩来判断学习是否发生，因为正确的操作表现无疑隐含着学习；但另一方面，没有表现出正确的操作水平有时也并不一定意味着学习没有发生，可能由于没有显示学习结果的动机导致不愿意显示出来。</p><p>所以这对于教师提出了要求，不仅要指导学生的学习，而且还要帮助和鼓励学生在最佳状态下发挥自己的才能。</p><h3 id="4-行为的暂时变化与相对持久的变化"><a href="#4-行为的暂时变化与相对持久的变化" class="headerlink" title="4. 行为的暂时变化与相对持久的变化"></a>4. 行为的暂时变化与相对持久的变化</h3><p>强调学习是行为相对持续的变化，是为了区别那些因各种原因而引起的行为的暂时变化。例如，当一个人生病、身体疲劳或心情烦恼时，学习的效果就会受影响。但这些都是暂时现象，可见，暂时性的行为变化不一定是因为学习而引起的，学习必须是指有机体比较持久的行为变化。</p><p>这里使用“相对”或“比较”一词，是因为学习者习得某种反应倾向后，虽然会形成稳定的习惯和牢固的知识，但随着时间的推移，可能会发生遗忘。我们不能因为一个人多年后忘记了如何解二元一次方程而否认他在中学时的学习。</p><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>学习是指学习者因经验而引起的行为、能力和心理倾向的比较持久的变化。这些变化不是因成熟、疾病或药物引起的，而且也不一定表现出外显的行为。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h2 id=&quot;学习的定义&quot;&gt;&lt;a href=&quot;#学习的定义&quot; class=&quot;headerlink&quot; title=&quot;学习的定义&quot;&gt;&lt;/a&gt;学习的定义&lt;/h2&gt;&lt;p&gt;在学习理论中所讲的“学”不只是指人类的学习，也包括动物的学习；它泛指有机体因经验而发生的行为的变化，而且这种变化并不</summary>
       
     
     

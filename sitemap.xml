@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanwydxf.github.io/2023/12/17/202306/</loc>
+    
+    <lastmod>2024-01-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanwydxf.github.io/2023/11/30/202305/</loc>
     
     <lastmod>2023-12-06</lastmod>
@@ -49,7 +58,7 @@
 
   <url>
     <loc>https://yanwydxf.github.io/</loc>
-    <lastmod>2023-12-06</lastmod>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

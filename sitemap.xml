@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanwydxf.github.io/2026/01/14/20260114/</loc>
+    
+    <lastmod>2026-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanwydxf.github.io/2023/09/02/2/</loc>
+    
+    <lastmod>2026-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanwydxf.github.io/2024/03/12/10/</loc>
     
     <lastmod>2026-01-14</lastmod>
@@ -100,15 +118,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://yanwydxf.github.io/2023/09/02/2/</loc>
-    
-    <lastmod>2024-07-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://yanwydxf.github.io/</loc>
@@ -127,6 +136,13 @@
   
   <url>
     <loc>https://yanwydxf.github.io/tags/Hexo/</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yanwydxf.github.io/tags/HarmonyOS/</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

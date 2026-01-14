@@ -6,7 +6,7 @@
   <link href="https://yanwydxf.github.io/atom.xml" rel="self"/>
   
   <link href="https://yanwydxf.github.io/"/>
-  <updated>2026-01-14T06:24:50.071Z</updated>
+  <updated>2026-01-14T06:26:03.381Z</updated>
   <id>https://yanwydxf.github.io/</id>
   
   <author>
@@ -18,17 +18,17 @@
   
   <entry>
     <title>HarmonyOS 开发指北</title>
-    <link href="https://yanwydxf.github.io/2026/01/14/20260114/"/>
-    <id>https://yanwydxf.github.io/2026/01/14/20260114/</id>
+    <link href="https://yanwydxf.github.io/2026/01/14/harmonyos/"/>
+    <id>https://yanwydxf.github.io/2026/01/14/harmonyos/</id>
     <published>2026-01-14T06:23:54.752Z</published>
-    <updated>2026-01-14T06:24:50.071Z</updated>
+    <updated>2026-01-14T06:26:03.381Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="HarmonyOS-开发指北"><a href="#HarmonyOS-开发指北" class="headerlink" title="HarmonyOS 开发指北"></a>HarmonyOS 开发指北</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="HarmonyOS-开发指北"><a href="#HarmonyOS-开发指北" class="headerlink" title="HarmonyOS 开发指北"></a>HarmonyOS 开发指北</h2><h3 id="1-HarmonyOS-简介"><a href="#1-HarmonyOS-简介" class="headerlink" title="1.HarmonyOS 简介"></a>1.HarmonyOS 简介</h3><p>HarmonyOS（简称“鸿蒙”）是华为推出的一款全新的操作系统，旨在为各种智能设备提供统一的操作系统。HarmonyOS 是一款面向未来的操作系统，它具有以下特点：</p><ol><li>统一操作系统：HarmonyOS 是一款统一的操作系统，它可以在各种设备上运行，包括智能手机、平板电脑、智能手表、智能家居设备等。</li><li>跨设备协同：HarmonyOS 支持跨设备协同，用户可以在不同的设备上无缝切换，实现更高效的协同工作。</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;HarmonyOS-开发指北&quot;&gt;&lt;a href=&quot;#HarmonyOS-开发指北&quot; class=&quot;headerlink&quot; title=&quot;HarmonyOS 开发指北&quot;&gt;&lt;/a&gt;HarmonyOS 开发指北&lt;/h2&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;HarmonyOS-开发指北&quot;&gt;&lt;a href=&quot;#HarmonyOS-开发指北&quot; class=&quot;headerlink&quot; title=&quot;HarmonyOS 开发指北&quot;&gt;&lt;/a&gt;HarmonyOS 开发指北&lt;/h2&gt;&lt;h3 id=&quot;1-HarmonyOS-简介&quot;&gt;&lt;</summary>
       
     
     

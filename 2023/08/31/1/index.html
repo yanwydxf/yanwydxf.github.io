@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Hexo + Github Page 快速搭建博客 · yanwydxf Blog</title><meta name="description" content="Hexo + Github Page 快速搭建博客 - yanwydxf"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/logo.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://yanwydxf.github.io/atom.xml" title="yanwydxf Blog"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="yanwydxf Blog" type="application/atom+xml">
+</head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/logo.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">首页</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">目录</a></li><li class="nav-list-item"><a href="/portfolio/" target="_self" class="nav-list-link">作品</a></li><li class="nav-list-item"><a href="https://bento.me/yanwydxf" target="_blank" class="nav-list-link">关于</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Hexo + Github Page 快速搭建博客</h1><div class="post-info">2023年8月31日</div><div class="post-content"><p>每个程序员都该有一个自己的博客。</p>
+<span id="more"></span>
+
+<h2 id="Hexo-快速搭建博客"><a href="#Hexo-快速搭建博客" class="headerlink" title="Hexo 快速搭建博客"></a>Hexo 快速搭建博客</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他标记语言）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<h4 id="1-安装-Hexo"><a href="#1-安装-Hexo" class="headerlink" title="1. 安装 Hexo"></a>1. 安装 Hexo</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h4 id="2-建站"><a href="#2-建站" class="headerlink" title="2. 建站"></a>2. 建站</h4><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h4 id="3-安装主题"><a href="#3-安装主题" class="headerlink" title="3. 安装主题"></a>3. 安装主题</h4><p>在 Hexo 官网选择<a target="_blank" rel="noopener" href="https://hexo.io/themes/">主题</a>后，下载至在 <code>themes</code> 文件夹内，本站使用的主题为 <a target="_blank" rel="noopener" href="https://github.com/chongshengsun/">apoll</a>。并修改 <code>_config.yml</code> 内的 theme 设定，即可切换主题。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: apollo</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="在-GitHub-Pages-上部署-Hexo"><a href="#在-GitHub-Pages-上部署-Hexo" class="headerlink" title="在 GitHub Pages 上部署 Hexo"></a>在 GitHub Pages 上部署 Hexo</h2><p>建立名为 &lt;你的 GitHub 用户名&gt;.github.io 的储存库，若之前已将 Hexo 上传至其他储存库，将该储存库重命名即可。</p>
+<h4 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h4><ol>
+<li>安装 hexo-deployer-git。</li>
+<li>在 <code>_config.yml</code> 中添加以下配置（如果配置已经存在，请将其替换为如下）:</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/xx/xx.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  token: </span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>执行 hexo g -d 。</li>
+<li>浏览 &lt;GitHub 用户名&gt;.github.io 检查你的网站能否运作。</li>
+</ol>
+</div></article></div></main><footer><div class="paginator"><a href="/2023/09/02/2/" class="prev">上一篇</a></div><div class="copyright"><p>© 2026 <a href="https://yanwydxf.github.io">yanwydxf</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>

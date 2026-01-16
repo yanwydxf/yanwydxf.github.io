@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> ArkUI 基础 · yanwydxf Blog</title><meta name="description" content="ArkUI 基础 - yanwydxf"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/logo.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="https://yanwydxf.github.io/atom.xml" title="yanwydxf Blog"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="yanwydxf Blog" type="application/atom+xml">
+</head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/logo.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">首页</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">目录</a></li><li class="nav-list-item"><a href="/portfolio/" target="_self" class="nav-list-link">作品</a></li><li class="nav-list-item"><a href="https://bento.me/yanwydxf" target="_blank" class="nav-list-link">关于</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">ArkUI 基础</h1><div class="post-info">2026年1月16日</div><div class="post-content"><h3 id="什么是-ArkUI"><a href="#什么是-ArkUI" class="headerlink" title="什么是 ArkUI"></a>什么是 ArkUI</h3><p>方舟开发框架（简称 ArkUI）：为 HarmonyOS 应用的 UI 开发提供了完整的基础设施，包括简洁的UI语法、丰富的 UI 功能（组件、布局、动画以及交互事件），以及实时界面预览工具等，可以支持开发者进行可视化界面开发。</p>
+<p>ArkTS：是 UI 开发语言，基于 TypeScript（简称TS）语言扩展而来，是 TS 的超集。扩展能力包含各种装饰器、自定义组件、UI描述机制。</p>
+<p>声明式开发范式：基于 ArkTS 的声明式开发范式的方舟开发框架是一套开发极简、高性能、支持跨设备的 UI 开发框架，提供了构建 HarmonyOS 应用 UI 所必需的能力。</p>
+<h4 id="ArkTS-对-UI-的语法支持"><a href="#ArkTS-对-UI-的语法支持" class="headerlink" title="ArkTS 对 UI 的语法支持"></a>ArkTS 对 UI 的语法支持</h4><img src="/images/arktsbase3.png" >
+
+<ul>
+<li>装饰器：用于装饰类、结构、方法以及变量，并赋予其特殊的含义。如上述示例中 <code>@Entry</code>、<code>@Component</code>都是装饰器。<ul>
+<li><code>@Component</code> 表示自定义组件</li>
+<li><code>@Entry</code> 表示该自定义组件为入口组件</li>
+</ul>
+</li>
+<li>UI 描述：以声明式的方式来描述 UI 的结构，例如 <code>build()</code> 方法中的代码块。</li>
+<li>自定义组件：可复用的 UI 单元，可组合其他组件，如上述被 @Component 装饰的 <code>struct Hello</code>。</li>
+<li>系统组件：ArkUI 框架中默认内置的基础和容器组件，可直接被开发者<br>调用，比如示例中的 Column、Text、Divider、Button。</li>
+<li>属性方法：组件可以通过链式调用配置多项属性，如 <code>fontSize()</code>、<code>width()</code>、<code>height()</code>、<code>backgroundColor()</code>等。</li>
+<li>事件方法：组件可以通过链式调用设置多个事件的响应逻辑，如跟随<br>在 <code>Button</code> 后面的 <code>onClick()</code>。</li>
+</ul>
+<h4 id="自定义组件的规则"><a href="#自定义组件的规则" class="headerlink" title="自定义组件的规则"></a>自定义组件的规则</h4><ul>
+<li><code>@Entry</code> 装饰的自定义组件，其 <code>build()</code> 函数下的根节点唯一且必要，且必须为容器组件，其中 <code>ForEach</code> 禁止作为根节点。</li>
+<li><code>@Component</code> 装饰的自定义组件，其 <code>build()</code> 函数下的根节点唯一且必要，可以为非容器组件，其中 <code>ForEach</code> 禁止作为根节点。</li>
+</ul>
+<figure class="highlight ts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Entry</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line">struct <span class="title class_">MyComponent</span> &#123;</span><br><span class="line">    <span class="title function_">build</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="comment">// 根节点唯一且必要，必须为容器组件</span></span><br><span class="line">        <span class="title class_">Row</span>() &#123;</span><br><span class="line">            <span class="title class_">ChildComponent</span>()</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line">struct <span class="title class_">ChildComponent</span> &#123;</span><br><span class="line">    <span class="title function_">build</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="comment">// 根节点唯一且必要，可为非容器组件</span></span><br><span class="line">        <span class="title class_">Image</span>(<span class="string">&#x27;test.jpg&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="组件描述的规则"><a href="#组件描述的规则" class="headerlink" title="组件描述的规则"></a>组件描述的规则</h4><ul>
+<li>不允许在 UI 描述中声明本地变量</li>
+<li>不允许在 UI 描述里直接使用 <code>console</code></li>
+<li>不允许创建本地的作用域；即不支持 <code>for/while</code></li>
+<li>不允许调用除了被 <code>@Builder</code> 装饰以外的方法</li>
+<li>不允许 <code>switch</code> 语法，如果需要使用条件判断，请使用 <code>if/else</code></li>
+</ul>
+<h3 id="ArkUI-常用组件"><a href="#ArkUI-常用组件" class="headerlink" title="ArkUI 常用组件"></a>ArkUI 常用组件</h3><img src="/images/arkuibase1.png" >
+
+</div></article></div></main><footer><div class="paginator"><a href="/2026/01/15/arktsbase/" class="next">下一篇</a></div><div class="copyright"><p>© 2026 <a href="https://yanwydxf.github.io">yanwydxf</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>

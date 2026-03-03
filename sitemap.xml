@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yanwydxf.github.io/about/index.html</loc>
+    
+    <lastmod>2026-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yanwydxf.github.io/portfolio/index.html</loc>
     
     <lastmod>2026-03-03</lastmod>
@@ -11,27 +20,9 @@
   </url>
   
   <url>
-    <loc>https://yanwydxf.github.io/2026/01/26/aiedu/</loc>
-    
-    <lastmod>2026-01-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yanwydxf.github.io/2026/01/22/cordova/</loc>
     
     <lastmod>2026-01-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yanwydxf.github.io/about/index.html</loc>
-    
-    <lastmod>2026-01-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
